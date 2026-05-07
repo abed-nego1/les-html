@@ -310,6 +310,11 @@ header {
   text-align: justify;
   padding-left: 40px;
 }
+.categories_card:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 .categories_card_title{
   font-style: 'roboto-medium';
   font-weight: 500;
@@ -341,6 +346,11 @@ header {
   row-gap: 20px;
   border: rgb(248, 245, 245) 1px solid;
   border-radius: 15px;
+}
+.featured_card:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 .featured_card_img{
   width: 100%;
@@ -886,6 +896,7 @@ footer {
 
 .app_btn i {
   font-size: 20px;
+  color: white;
 }
 
 .app_btn div {
@@ -895,10 +906,12 @@ footer {
 
 .app_btn span {
   font-size: 10px;
+  color: white;
 }
 
 .app_btn strong {
   font-size: 13px;
+  color: white;
 }
 
 .footer_bottom {
